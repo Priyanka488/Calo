@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Vision</string>
+
+    <string name="sign_up_label">Sign Up</string>
+    <string name="gender_label">Gender</string>
+    <string name="age_label">Age</string>
+    <string name="height_label">Height</string>
+    <string name="weight_label">Weight</string>
+    <string name="activity_label">Activity</string>
+    <string name="reset_label">Clear screen</string>
+    <string name="calculate_label">Calculate</string>
+    <string name="history_label">View History</string>
+    <string-array name="units_array">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="activity_array">
+        <item>Sedentary</item>
+        <item>Lightly active</item>
+        <item>Moderately active</item>
+        <item>Very active</item>
+        <item>Extremely active</item>
+    </string-array>
+    <string name="title_activity_results">Results</string>
+    <string name="bmr_label">BMR</string>
+    <string name="tdee_label">TDEE</string>
+    <string name="bmi_label">BMI</string>
+    <string name="log_label">Save result</string>
+    <string name="action_about">Help</string>
+    <string name="action_profile">Edit Profile</string>
+    <string name="title_activity_about_me">Help</string>
+    <string name="aboutApp"><b><u>Vision</u></b>
+
+    </string>
+    <string name="unit_label">Units</string>
+    <string name="view_code">View source code</string>
+    <string name="tooMuch">Made with &#x2764; on planet Earth</string>
+    <string name="title_activity_history">History</string>
+    <string name="bmi_status">You are</string>
+    <string name="tryingTo_label">Trying to</string>
+    <string-array name="tryingTo_array">
+        <item>Loose weight</item>
+        <item>Gain weight</item>
+        <item>Maintain weight</item>
+    </string-array>
+    <string name="tryingToMsg">PlaceHolder</string>
+    <string name="date_label">Date</string>
+    <string name="intake_label">Calories</string>
+    <string name="action_delete_history">Delete history</string>
+    <string name="action_export_history">Export history</string>
+    <string name="user_label">User</string>
+    <string name="update_button_label">Update Profile</string>
+    <string name="activity_profile_title">Edit Profile</string>
+    <string name="profile_fileName">com.cyberw01f.kalc.profile_data</string>
+    <string name="unit_pref">unitPrefKey</string>
+    <string name="gender_pref">genderPrefKey</string>
+    <string name="age_pref">agePrefKey</string>
+    <string name="height_pref">heightPrefKey</string>
+    <string name="weight_pref">weightPrefKey</string>
+    <string name="load_button_label">Load Profile</string>
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Barcode Reader Sample</string>
+    <string name="barcode_header">Click &quot;Read Barcode&quot; to read a barcode</string>
+    <string name="read_barcode">Read Barcode</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="barcode_success">Barcode read successfully</string>
+    <string name="barcode_failure">No barcode captured</string>
+    <string name="barcode_error">"Error reading barcode: %1$s"</string>
+</resources>

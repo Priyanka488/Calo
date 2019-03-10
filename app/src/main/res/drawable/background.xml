@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/colorSplash" />
+
+    <item android:gravity="center_horizontal|center_vertical"
+
+        android:left="300dp"
+        android:right="300dp"
+        android:layout_margin="100dp">
+
+        <bitmap android:src="@drawable/logo"
+
+            android:gravity="center"
+            />
+
+    </item>
+
+</layer-list>

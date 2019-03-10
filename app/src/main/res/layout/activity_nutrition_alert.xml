@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:measureWithLargestChild="true"
+        android:padding="3dp"
+        android:stretchColumns="*"
+        tools:context=".Results"
+        android:layout_marginTop="70dp"
+        tools:showIn="@layout/activity_results">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:background="@color/background_ui">
+
+            <TextView
+                android:id="@+id/bmrLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="3dp"
+                android:paddingRight="3dp"
+                android:paddingBottom="3dp"
+                android:text="Calories Burnt"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                tools:background="@color/colorSplash" />
+
+            <TextView
+                android:id="@+id/CB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="15dp"
+                android:background="@color/colorSplash"
+                android:text="TextView"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+        </TableRow>
+
+        <View style="@style/Divider" />
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/cell_background"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tdeeLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="3dp"
+                android:paddingRight="3dp"
+                android:paddingBottom="3dp"
+                android:text="Calories Intake"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                tools:background="@color/colorSplash" />
+
+            <TextView
+                android:id="@+id/CI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="15dp"
+                android:background="@color/colorSplash"
+                android:paddingLeft="3dp"
+                android:paddingTop="3dp"
+                android:paddingRight="3dp"
+                android:paddingBottom="3dp"
+                android:text="TextView"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+        </TableRow>
+
+        <View style="@style/Divider" />
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:background="@color/background_ui">
+
+            <TextView
+                android:id="@+id/bmiLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="3dp"
+                android:paddingRight="3dp"
+                android:paddingBottom="3dp"
+                android:text="Total Advised Calories"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                tools:background="@color/colorSplash" />
+
+            <TextView
+                android:id="@+id/TAC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="15dp"
+                android:background="@color/colorSplash"
+                android:paddingLeft="3dp"
+                android:paddingTop="3dp"
+                android:paddingRight="3dp"
+                android:paddingBottom="3dp"
+                android:text="TextView"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+        </TableRow>
+
+
+        <View style="@style/Divider" />
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/cell_background"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/bmiStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="3dp"
+                android:paddingRight="3dp"
+                android:paddingBottom="3dp"
+                android:text="Net Calories"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                tools:background="@color/colorSplash" />
+
+            <TextView
+                android:id="@+id/NC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="15dp"
+                android:background="@color/colorSplash"
+                android:paddingLeft="3dp"
+                android:paddingTop="3dp"
+                android:paddingRight="3dp"
+                android:paddingBottom="3dp"
+                android:text="TextView"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+        </TableRow>
+
+        <View style="@style/Divider" />
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:background="@color/background_ui">
+
+            <TextView
+                android:id="@+id/OU"
+                android:layout_width="311dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_span="2"
+                android:paddingLeft="3dp"
+                android:paddingTop="3dp"
+                android:paddingRight="3dp"
+                android:paddingBottom="3dp"
+                android:text="Would You Eat ?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <View style="@style/Divider" />
+
+        <Button
+            android:id="@+id/noButton"
+            android:layout_width="371dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimaryLight"
+            android:text="No"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="@color/colorSplash"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/yesButton"
+            android:layout_width="371dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimaryLight"
+            android:text="Yes!"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="@color/colorSplash"
+
+            android:textSize="28sp" />
+    </TableLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

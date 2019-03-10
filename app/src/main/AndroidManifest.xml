@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.vision">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".nutrition.NutritionHistory"></activity>
+        <activity android:name=".nutrition.NutritionAlert" />
+        <activity android:name=".userAcoount.LoginActivity" />
+        <activity android:name=".userAcoount.UserActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Barcode.TestActivity"></activity>
+        <activity android:name=".Barcode.BarcodeCaptureActivity" />
+        <activity android:name=".BarCodeActivity"></activity>
+        <activity android:name=".Barcode.BarcodeMainActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WalkActivity2"
+            android:parentActivityName="MainActivity"
+             />
+        <activity
+            android:name=".KalcMainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Results"
+            android:label="@string/title_activity_results"
+            android:parentActivityName=".KalcMainActivity"
+            android:screenOrientation="portrait"
+             />
+        <activity android:name=".VisionActivity" />
+        <activity android:name=".NewVisionActivity"
+            android:parentActivityName="MainActivity"/>
+        <activity android:name=".userAcoount.RegisterActivity" />
+        <activity android:name=".nutrition.NutritionActivity"
+            android:parentActivityName=".NewVisionActivity"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+     />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+</manifest>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#344955</color>
+    <color name="colorPrimaryDark">#232F34</color>
+    <color name="colorPrimaryLight">#4a6572</color>
+    <color name="colorAccent">#f9aa33</color>
+    <color name="colorWord"></color>
+    <color name="colorSplash">#fffff8</color>
+    <color name="white">#ffffff</color>
+    <color name="orange">#e27d34</color>
+    <color name="green">#42a56a</color>
+    <color name="bluelight">#4d658c</color>
+    <color name="background_kalc">#bbdefb</color>
+    <color name="cell_background">#f1f1f1</color>
+    <color name="background_ui">#f2f2f2</color>
+    <color name="background_holo_light">#17170447</color>
+</resources>

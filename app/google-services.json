@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "694735325991",
+    "firebase_url": "https://foodrecognitionv2.firebaseio.com",
+    "project_id": "foodrecognitionv2",
+    "storage_bucket": "foodrecognitionv2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694735325991:android:1a5833109be6af05",
+        "android_client_info": {
+          "package_name": "com.example.android.vision"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694735325991-342ou3p30v0ssq8cs202jq2ddf7labu0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.vision",
+            "certificate_hash": "fea65810683fa38219a6d5e301c7a1e98ede88bc"
+          }
+        },
+        {
+          "client_id": "694735325991-8rm6vp04ad3e71uiad19al1q9tu6rgr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATd5Xnlc70B5OYspHXRZOxDsv2b6KtZLs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694735325991-8rm6vp04ad3e71uiad19al1q9tu6rgr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
